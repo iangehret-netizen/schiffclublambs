@@ -4,7 +4,7 @@ service cloud.firestore {
 
     // Your passcode login (the hidden sync account).
     function isOwner() {
-      return request.auth != null && request.auth.token.email == 'PUT-THE-PASSCODE-USER-EMAIL-HERE';
+      return request.auth != null && request.auth.token.email == 'schiffclublambs@gmail.com';
     }
 
     // All of your records — only phones unlocked with your passcode.

@@ -25,17 +25,17 @@
 
   var FIREBASE_CONFIG = {
     // ===== FIREBASE SETUP: paste the values from the Schiff Firebase project here =====
-    apiKey: "",
-    authDomain: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: "",
+    apiKey: "AIzaSyD985h5bsBGxBcF6IEHezaxUJYwlL6aRvc",
+    authDomain: "schiff-club-lambs.firebaseapp.com",
+    projectId: "schiff-club-lambs",
+    storageBucket: "schiff-club-lambs.firebasestorage.app",
+    messagingSenderId: "285921825348",
+    appId: "1:285921825348:web:58b98a80c807655e7fe211",
   };
 
   // Single shared account backing every device. The app UI never shows this —
   // only a passcode field — but Firebase still does real server-side auth.
-  var SYNC_EMAIL = ""; // FIREBASE SETUP: the email of the passcode user (Authentication > Users)
+  var SYNC_EMAIL = "schiffclublambs@gmail.com"; // FIREBASE SETUP: the email of the passcode user (Authentication > Users)
 
   var LOCAL_PREFIX = "scl:";
   var META_PREFIX = "scl:__syncmeta:";
