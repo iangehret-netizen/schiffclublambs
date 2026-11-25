@@ -1,4 +1,4 @@
-const CACHE_NAME = "schiff-app-v2";
+const CACHE_NAME = "schiff-app-v4";
 const ASSETS_TO_CACHE = [
   "./",
   "./index.html",
